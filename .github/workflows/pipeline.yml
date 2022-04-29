@@ -27,5 +27,5 @@ jobs:
           heroku_app_name: "cicd202204"
           heroku_email: ""
           branch: "master"
-          dontuseforce: false
-          usedocker: false
+          dontuseforce: true
+          usedocker: true
