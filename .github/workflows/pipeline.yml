@@ -29,3 +29,4 @@ jobs:
           branch: "master"
           dontuseforce: true
           usedocker: false
+          healthcheck: "https://cicd202204.herokuapp.com/health"
