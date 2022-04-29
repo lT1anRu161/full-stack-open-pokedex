@@ -28,4 +28,4 @@ jobs:
           heroku_email: ""
           branch: "master"
           dontuseforce: true
-          usedocker: true
+          usedocker: false
