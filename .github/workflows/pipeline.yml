@@ -31,5 +31,4 @@ jobs:
           usedocker: false
           healthcheck: "https://cicd202204.herokuapp.com/health"
           checkstring: "ok"
-          delay: 5
           rollbackonhealthcheckfailed: true
