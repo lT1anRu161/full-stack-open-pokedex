@@ -21,3 +21,11 @@ jobs:
         run: npm run build
       - name: test
         run: npm run test
+      - uses: akhileshns/heroku-deploy@v3.0.4
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "cicd202204.herokuapp.com"
+          heroku_email: ""
+          branch: "master"
+          dontuseforce: false
+          usedocker: false
