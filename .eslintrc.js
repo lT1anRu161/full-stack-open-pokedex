@@ -1,6 +1,16 @@
+/*
+ * @Author: ExpLife0011
+ * @Date: 2022-04-29 15:02:43
+ * @LastEditTime: 2022-04-29 15:02:44
+ * @LastEditors: ExpLife0011
+ * @Description:
+ * @FilePath: /full-stack-open-pokedex/.eslintrc.js
+ * MIT License
+ */
 module.exports = {
   "env": {
     "browser": true,
+    "node": true,
     "es6": true,
     "jest/globals": true
   },
@@ -43,7 +53,6 @@ module.exports = {
     "arrow-spacing": [
       "error", { "before": true, "after": true }
     ],
-    "no-console": "error",
     "react/prop-types": 0
   }
 }
